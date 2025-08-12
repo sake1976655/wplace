@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>wplace.live — Pixel canvas</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>wplace.live</h1>
+    <p>Кішігірім, қауіпсіз пиксель платформа</p>
+  </header>
+  <main>
+    <div id="tools">
+      <input type="color" id="colorPicker" value="#ff0000" />
+      <button id="clearBtn">Тазалау</button>
+      <span id="status"></span>
+    </div>
+    <canvas id="canvas"></canvas>
+  </main>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/script.js"></script>
+</body>
+</html>
